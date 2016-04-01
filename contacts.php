@@ -5,6 +5,16 @@
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="style" rel="stylesheet" type="text/css">
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74455808-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </head><body>
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -61,8 +71,8 @@
             <a class="right carousel-control" href="#fullcarousel-example" data-slide="next">
                       <i class="icon-next fa fa-angle-right"></i></a>
         </div>
-        
-        
+
+
         <div class="section">
             <div class="container">
                 <div class="row">
@@ -83,7 +93,7 @@
                                     <i class="fa fa-4x fa-fw fa-google pull-left"></i>
                                     <h4 class="media-heading">Gmail&nbsp;</h4>
                                     <p>
-                                        <a href="#">dmi3coder@gmail.com</a>
+                                        <a href="mailto:dmi3coder@gmail.com">dmi3coder@gmail.com</a>
                                     </p>
                                 </div>
                             </li>
@@ -92,7 +102,7 @@
                                     <i class="fa fa-4x fa-briefcase fa-fw pull-left"></i>
                                     <h4 class="media-heading">Personal mail</h4>
                                     <p>
-                                        <a href="#">mail@dmi3coder.com</a>
+                                        <a href="mailto:mail@dmi3coder.com">mail@dmi3coder.com</a>
                                         <br>
                                     </p>
                                 </div>
@@ -106,7 +116,7 @@
                                     <i class="fa fa-4x fa-fw fa-mobile-phone pull-left"></i>
                                     <h4 class="media-heading">Personal phone</h4>
                                     <p>
-                                        <a href="#">+380665861886</a></p>
+                                        <a href="tel:+380665861886">+380665861886</a></p>
                                 </div>
                             </li>
                             <li class="media">
@@ -217,6 +227,6 @@
                 </div>
             </div>
         </footer>
-    
+
 
 </body></html>
