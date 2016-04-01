@@ -61,14 +61,13 @@
             <a class="right carousel-control" href="#fullcarousel-example" data-slide="next">
                       <i class="icon-next fa fa-angle-right"></i></a>
         </div>
-
-
+        
+        
         <div class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Or you can find me there
-                            <br>
+                        <h1>You can find me there &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
                         </h1>
                     </div>
                 </div>
@@ -84,7 +83,7 @@
                                     <i class="fa fa-4x fa-fw fa-google pull-left"></i>
                                     <h4 class="media-heading">Gmail&nbsp;</h4>
                                     <p>
-                                        <a href="mailto:dmi3coder@gmail.com">dmi3coder@gmail.com</a>
+                                        <a href="#">dmi3coder@gmail.com</a>
                                     </p>
                                 </div>
                             </li>
@@ -93,7 +92,7 @@
                                     <i class="fa fa-4x fa-briefcase fa-fw pull-left"></i>
                                     <h4 class="media-heading">Personal mail</h4>
                                     <p>
-                                        <a href="mailto:mail@dmi3coder.com">mail@dmi3coder.com</a>
+                                        <a href="#">mail@dmi3coder.com</a>
                                         <br>
                                     </p>
                                 </div>
@@ -107,7 +106,7 @@
                                     <i class="fa fa-4x fa-fw fa-mobile-phone pull-left"></i>
                                     <h4 class="media-heading">Personal phone</h4>
                                     <p>
-                                        <a href="tel:+380665861886">+380665861886</a></p>
+                                        <a href="#">+380665861886</a></p>
                                 </div>
                             </li>
                             <li class="media">
@@ -218,6 +217,6 @@
                 </div>
             </div>
         </footer>
-
+    
 
 </body></html>
