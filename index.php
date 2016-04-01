@@ -69,14 +69,7 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Fourplaces</h1>
                         <h3>Backend &amp;&nbsp;Mobile Android developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                            felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                            elementum semper nisi.</p>
+                        <p>The more exciting project that I've ever made for now! I'm cofounder of Fourplaces - our application for finding cafeterias and events. It's the point where I've realized myself as &nbsp;experienced developer: REST API, Retrofit, okhttp, search, RecyclerView, Parralax effect, realm and a lot of interesting things; on the other hand - entrepreneur: Startup challenge, presentations, advertisement. A lot of books was read, a lot of code was written. Also I've developed backend on Spring for this project.&nbsp;</p>
                         <p class="text-right">
                             <b>29.12.2015 - NOW</b>
                             <br>
@@ -92,14 +85,7 @@
                         <img src="images/exp_rai.jpg" class="hidden-lg hidden-md img-responsive img-rounded">
                         <h1 class="text-primary">Rai bulletin board</h1>
                         <h3>Mobile Android developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                            felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                            elementum semper nisi.</p>
+                        <p>Started in September 2015, prototype was developed less then 2 weeks. Got hired by Russian company Rai, but moreover, I got huge experience in handling the workflow of bulletin board program. It was my first experience with inApp billing and PlayMarket application posting. The project's wide-open happend in October.</p>
                         <p class="text-right">
                             <b>09.2015 - 11.2015</b>&nbsp;
                             <br>
@@ -120,14 +106,7 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Imbiss am kreisel (dmi3cafe)</h1>
                         <h3>Mobile Android developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                            felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                            elementum semper nisi.</p>
+                        <p>Inspired with Android SDK, it was my first project for project for Android. Started in May 2015 I've created a lot of features that i'm still using: listview, asynktask, Picasso, slide navigation menu. I've been using Parse as a pseudo backend. Got hired by some German cafeteria called "Imbiss am kreisel". Unfortunetaly, cafeteria was closed and my program was declined. So I started to add new features just for fun: food ordering, events, table booking, etc.&nbsp;</p>
                         <p>
                             <a href="#">Amazon AppStore</a>
                         </p>
