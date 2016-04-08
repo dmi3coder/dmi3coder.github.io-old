@@ -1,8 +1,8 @@
 <html><head>
         <meta charset="utf-8">
         <title>Dmitriy Chaban dmi3coder personal contacts</title>
-        <meta name="description" content="dmi3coder, android, java, akka, play, framework, startup"/>
-        <meta name="keywords" content="dmi3coder, android, java, akka, play, framework, startup"/>
+        <meta name="description" content="dmi3coder, android, java, akka, play, framework, startup">
+        <meta name="keywords" content="dmi3coder, android, java, akka, play, framework, startup">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -10,15 +10,14 @@
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="style" rel="stylesheet" type="text/css">
         <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-74455808-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+              ga('create', 'UA-74455808-1', 'auto');
+              ga('send', 'pageview');
+        </script>
     </head><body>
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -75,13 +74,13 @@
             <a class="right carousel-control" href="#fullcarousel-example" data-slide="next">
                       <i class="icon-next fa fa-angle-right"></i></a>
         </div>
-
-
         <div class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>You can find me there &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+                        <h1>You can find me there &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <br>
                         </h1>
                     </div>
                 </div>
@@ -120,7 +119,8 @@
                                     <i class="fa fa-4x fa-fw fa-mobile-phone pull-left"></i>
                                     <h4 class="media-heading">Personal phone</h4>
                                     <p>
-                                        <a href="tel:+380665861886">+380665861886</a></p>
+                                        <a href="tel:+380665861886">+380665861886</a>
+                                    </p>
                                 </div>
                             </li>
                             <li class="media">
@@ -162,32 +162,6 @@
         </div>
         <div class="section">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="text-center">Subscribe for updates</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-offset-3 col-md-6">
-                        <form role="form">
-                            <div class="form-group">
-                                <div class="input-group input-group-lg">
-                                    <input type="email" class="form-control" placeholder="Enter your email">
-                                    <span class="input-group-btn">
-                                        <a class="btn btn-success" type="submit">Go</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Enter your name">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
                 <div class="row text-center">
                     <div class="col-xs-3 text-center">
                         <a href="https://www.linkedin.com/in/dmi3coder"><i class="fa fa-5x fa-fw fa-linkedin-square fa-spin"></i></a>
@@ -204,7 +178,7 @@
                 </div>
             </div>
         </div>
-        <footer class="section section-primary">
+        <div class="section"></div><div class="section"></div><footer class="section section-primary">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -214,23 +188,9 @@
                             <br>
                         </p>
                     </div>
-                    <div class="col-sm-6">
-                        <p class="text-info text-right">
-                            <br>
-                            <br>
-                        </p>
-                        <div class="row">
-                            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
-                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </footer>
-
+    
 
 </body></html>

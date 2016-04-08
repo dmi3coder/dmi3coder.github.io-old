@@ -1,23 +1,22 @@
 <html><head>
         <meta charset="utf-8">
-        <title>Dmitriy Chaban dmi3coder personal website & portfolio</title>
-        <meta name="description" content="dmi3coder, android, java, akka, play, framework, startup"/>
-        <meta name="keywords" content="dmi3coder, android, java, akka, play, framework, startup"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="style" rel="stylesheet" type="text/css">
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-74455808-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        <title>Dmitriy Chaban dmi3coder personal website &amp; portfolio</title>
+        <meta name="description" content="dmi3coder, android, java, akka, play, framework, startup">
+            <meta name="keywords" content="dmi3coder, android, java, akka, play, framework, startup">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link href="style" rel="stylesheet" type="text/css">
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                
+                  ga('create', 'UA-74455808-1', 'auto');
+                  ga('send', 'pageview');
+            </script>
     </head><body>
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -52,12 +51,65 @@
                     <div class="col-md-3">
                         <img src="images/me.jpg" class="center-block img-circle img-responsive">
                     </div>
-                    <div class="col-md-9 text-center filterprogiddximagetransformmicrosoftgradientendcolorstrc0cfe2-startcolorstr='#ffffff',-gradienttype='0'); blackbg">
+                    <div class="blackbg col-md-9 filterprogiddximagetransformmicrosoftgradientendcolorstrc0cfe2-startcolorstr='#ffffff',-gradienttype='0'); text-left">
                         <h1 class="text-inverse">Dmitriy Chaban</h1>
                         <p class="text-inverse">Junior Java/Android Developer</p>
                         <br>
                         <br>
                         <a class="btn btn-lg btn-primary" href="/contacts.php">Contact me<br></a>
+                    </div>
+                </div>
+            </div>
+        </div><div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Strong skills
+                            <br>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div><div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="images/androidDev.png" class="center-block img-responsive">
+                        <h2 class="text-success">Android SDK</h2>
+                        <p>Tried android in summer 2014 and was astonished with this power. In 2015
+                            started aggresive deep learning: Intents, Content providers, Services and
+                            much much more&nbsp;</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/javase.jpg" class="img-responsive">
+                        <h2 class="text-warning">Java SE</h2>
+                        <p>Started learning in fall 2015 righ after small experience with Android
+                            SDK because strong basics are matter. &nbsp;Have good backgound in Java
+                            SE + Java 8 experience such as lambdas and streams</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/rest.png" class="img-responsive img-rounded">
+                        <h2 class="text-danger">API</h2>
+                        <p>Had some small experience with Parse SDK. In winter 2015 started deep
+                            learning of REST API with Retrofit library. In spring 2016 created own
+                            Spring backend with REST API: authorization and MongoDB.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/android.jpg" class="img-responsive">
+                        <h2>Some more</h2>
+                        <p>Have few
+                            <a href="https://github.com/dmi3coder/jZeldaProject">experience with jMonkeyEngine</a>, Spring Framework and huge amount of libraries. Also have good experience
+                            with some databases such as: SQLite, Realm, MongoDB
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -148,62 +200,9 @@
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Strong skills
-                            <br>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/androidDev.png" class="center-block img-responsive">
-                        <h2 class="text-success">Android SDK</h2>
-                        <p>Tried android in summer 2014 and was astonished with this power. In 2015
-                            started aggresive deep learning: Intents, Content providers, Services and
-                            much much more&nbsp;</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/javase.jpg" class="img-responsive">
-                        <h2 class="text-warning">Java SE</h2>
-                        <p>Started learning in fall 2015 righ after small experience with Android
-                            SDK because strong basics are matter. &nbsp;Have good backgound in Java
-                            SE + Java 8 experience such as lambdas and streams</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/rest.png" class="img-responsive img-rounded">
-                        <h2 class="text-danger">API</h2>
-                        <p>Had some small experience with Parse SDK. In winter 2015 started deep
-                            learning of REST API with Retrofit library. In spring 2016 created own
-                            Spring backend with REST API: authorization and MongoDB.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/android.jpg" class="img-responsive">
-                        <h2>Some more</h2>
-                        <p>Have few
-                            <a href="https://github.com/dmi3coder/jZeldaProject">experience with jMonkeyEngine</a>, Spring Framework and huge amount of libraries. Also have good experience
-                            with some databases such as: SQLite, Realm, MongoDB
-                            <br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div><div class="section"><div class="container"><div class="row"><div class="col-md-12"><hr></div></div></div></div><div class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> <h1 class="text-center">Subscribe for updates</h1> </div></div><div class="row"> <div class="col-md-offset-3 col-md-6"> <form role="form"> <div class="form-group"> <div class="input-group input-group-lg"> <input type="email" class="form-control" placeholder="Enter your email"> <span class="input-group-btn"> <a class="btn btn-success" type="submit">Go</a> </span> </div></div><div class="form-group"><input class="form-control" type="text" placeholder="Enter your name"></div></form> </div></div></div></div>
+        
+        
+        
         <footer class="section section-primary">
             <div class="container">
                 <div class="row">
@@ -215,28 +214,16 @@
                         </p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="text-info text-right">
-                            <br>
-                            <br>
-                        </p>
-                        <div class="row">
-                            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
-                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
-                            </div>
-                        </div><div class="col-md-12 hidden-xs text-right">
-                                <a href="https://www.linkedin.com/in/dmi3coder"><i class="edin fa fa-3x fa-fw fa-linkedin-square fa-spin text-inverse"></i></a>
-                                <a href="https://twitter.com/dmi3coder"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                                <a href="https://facebook.com/dmi3coder"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                                <a href="https://github.com/dmi3coder"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
-                            </div>
-
+                        <div class="col-md-12 text-right">
+                            <a href="https://www.linkedin.com/in/dmi3coder"><i class="edin fa fa-3x fa-fw fa-linkedin-square fa-spin text-inverse"></i></a>
+                            <a href="https://twitter.com/dmi3coder"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                            <a href="https://facebook.com/dmi3coder"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                            <a href="https://github.com/dmi3coder"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </footer>
-
+    
 
 </body></html>
