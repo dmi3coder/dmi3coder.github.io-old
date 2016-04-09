@@ -6,7 +6,7 @@
                 include("index_en.php");
                 break;
             case "ru":
-              include("index_en.php");
+              include("index_ru.php");
               break;
             default:
                 //echo "PAGE EN - Setting Default";
