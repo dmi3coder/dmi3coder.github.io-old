@@ -157,11 +157,11 @@
                         <img src="images/exp_rai.jpg" class="hidden-lg hidden-md img-responsive img-rounded">
                         <h1 class="text-primary">Rai bulletin board</h1>
                         <h3>Mobile Android developer</h3>
-                        <p>Started in September 2015, prototype was developed less then 2 weeks.
+                        <p>Started in September 2015, minimal viable prodict was developed less then 2 weeks.
                             Got hired by Russian company Rai, but moreover, I got huge experience in
                             handling the workflow of bulletin board program. It was my first experience
                             with inApp billing and PlayMarket application posting. The project's wide-open
-                            happend in October.</p>
+                            happend in October 2015</p>
                         <p class="text-right">
                             <b>09.2015 - 11.2015</b>&nbsp;
                             <br>
@@ -182,13 +182,11 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Imbiss am kreisel (dmi3cafe)</h1>
                         <h3>Mobile Android developer</h3>
-                        <p>Inspired with Android SDK, it was my first project for project for Android.
+                        <p>Inspired with Android SDK, it was my first project for Android.
                             Started in May 2015 I've created a lot of features that i'm still using:
                             listview, asynktask, Picasso, slide navigation menu. I've been using Parse
                             as a pseudo backend. Got hired by some German cafeteria called "Imbiss
-                            am kreisel". Unfortunetaly, cafeteria was closed and my program was declined.
-                            So I started to add new features just for fun: food ordering, events, table
-                            booking, etc.&nbsp;</p>
+                            am kreisel".</p>
                         <p>
                             <a href="http://www.amazon.com/dmi3coder-dmi3cafe/dp/B011M755OA">Amazon AppStore</a>
                         </p>

@@ -76,7 +76,7 @@
                     <div class="col-md-3">
                         <img src="images/androidDev.png" class="center-block img-responsive">
                         <h2 class="text-success">Android SDK</h2>
-                        <p>Попробовал написать программу под android в 2014 и был просто изумлен его
+                        <p>Попробовал написать программу под android в 2014 и был просто изумлён его
                         возможностями. В 2015 начал усердное глубокое изучение: Intents,
                             Content providers, Services и многое многое другое</p>
                     </div>
@@ -91,7 +91,7 @@
                         <img src="images/rest.png" class="img-responsive img-rounded">
                         <h2 class="text-danger">API</h2>
                         <p>Имел небольшой опыт с Parse SDK. Зимой 2015 начал глубокое изучение
-                        REST API c Retrofit и okhhtp библиотеками. Весной 2016 создал собтвенный
+                        REST API c Retrofit и okhhtp библиотеками. Весной 2016 создал собственный
                         Spring backend сервер с REST API: authorization and MongoDB </p>
                     </div>
                     <div class="col-md-3">
@@ -118,7 +118,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Experience
+                        <h1>Опыт
                             <br>
                         </h1>
                     </div>
@@ -134,16 +134,16 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Fourplaces</h1>
                         <h3>Backend &amp;&nbsp;Mobile Android developer</h3>
-                        <p>The more exciting project that I've ever made for now! I'm cofounder of
-                            Fourplaces - our application for finding cafeterias and events. It's the
-                            point where I've realized myself as &nbsp;experienced developer: REST API,
-                            Retrofit, okhttp, search, RecyclerView, Parralax effect, realm and a lot
-                            of interesting things; on the other hand - entrepreneur: Startup challenge,
-                            presentations, advertisement. A lot of books was read, a lot of code was
-                            written. Also I've developed backend on Spring for this project.&nbsp;</p>
-                        <a class="btn btn-primary" href="http://fourplaces.com">Website</a>
+                        <p>Наиболее изумительный проект который я делал! Я являлся со основателем
+                            Fourplaces - нашего приложения для поиска кафетерий и событий. Это то место
+                            где я реализовал себя как опытный разработчик: REST API,
+                            Retrofit, okhttp, search, RecyclerView, Parralax effect, realm и много чего
+                            интересного; и по другую сторону предприниматель: Startup challenge,
+                            presentations, advertisement. Тонна книг была прочитана, тонна кода был
+                            написано. Также я разработал Spring backend для этого проекта
+                        <a class="btn btn-primary" href="http://fourplaces.com">Вебсайт</a>
                             <p class="text-right">
-                                <b>29.12.2015 - NOW</b>
+                                <b>29.12.2015 - 28.03.2016</b>
                                 <br>
                             </p>
                     </div>
@@ -155,13 +155,12 @@
                 <div class="row">
                     <div class="col-md-6">
                         <img src="images/exp_rai.jpg" class="hidden-lg hidden-md img-responsive img-rounded">
-                        <h1 class="text-primary">Rai bulletin board</h1>
+                        <h1 class="text-primary">Доска объявлений Rai</h1>
                         <h3>Mobile Android developer</h3>
-                        <p>Started in September 2015, prototype was developed less then 2 weeks.
-                            Got hired by Russian company Rai, but moreover, I got huge experience in
-                            handling the workflow of bulletin board program. It was my first experience
-                            with inApp billing and PlayMarket application posting. The project's wide-open
-                            happend in October.</p>
+                        <p>Начал в сентябре 2015, минимальный рабочий продукт было сделано меньше чем за 2 недели
+                            Был нанят Русской компанией Rai как фрилансер, но более этого, получил большой
+                            опыт в настройки работы доски объявлений. Это был мой первый опыт с InApp billing и
+                            размещением приложения в PlayMarket. Открытие проекта произошло в Октябре 2015</p>
                         <p class="text-right">
                             <b>09.2015 - 11.2015</b>&nbsp;
                             <br>
@@ -182,13 +181,10 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Imbiss am kreisel (dmi3cafe)</h1>
                         <h3>Mobile Android developer</h3>
-                        <p>Inspired with Android SDK, it was my first project for project for Android.
-                            Started in May 2015 I've created a lot of features that i'm still using:
-                            listview, asynktask, Picasso, slide navigation menu. I've been using Parse
-                            as a pseudo backend. Got hired by some German cafeteria called "Imbiss
-                            am kreisel". Unfortunetaly, cafeteria was closed and my program was declined.
-                            So I started to add new features just for fun: food ordering, events, table
-                            booking, etc.&nbsp;</p>
+                        <p>Вдохновлённый Android SDK, создал мой первый проект для Android. Начавши в мае 2015,
+                            создал большое количество техник, которые я до сих пор использую :
+                            listview, asynktask, Picasso, slide navigation menu. Использовал Parse как backend.
+                            Был нанят одной Немецкой кафетерием "Imbiss am kreisel".</p>
                         <p>
                             <a href="http://www.amazon.com/dmi3coder-dmi3cafe/dp/B011M755OA">Amazon AppStore</a>
                         </p>
@@ -208,10 +204,9 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h1>ad verum via fert</h1>
-                        <p>It means "path leads to the truth", which is mine creed for anything I
-                            do. If you're making some work you'll be one step closer to your dream.
-                            <br>
-                        </p>
+                        <p>или "путь ведёт к истине", что есть моим кредо для всего что я делаю
+                            Если ты что-то делаешь то ты всегда будешь на один шаг ближе к твоей мечте
+                        <br></p>
                     </div>
                     <div class="col-sm-6">
                         <div class="col-md-12 text-right">
