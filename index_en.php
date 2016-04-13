@@ -148,10 +148,20 @@
             $from_date = $result->fetch_assoc()['from_date'];
             $result->data_seek($i);
             $to_date = $result->fetch_assoc()['to_date'];
+            if($to_date == "0000-00-00"){
+                $to_date = "NOW";
+            }
             echo <<< _END
         <div class="section">
             <div class="container">
                 <div class="row">
+_END;
+            if($i%2 == 0 ){
+                echo "<div class=\"col-md-6 hidden-sm hidden-xs\">
+                        <img src=\"$image\" class=\"img-responsive img-rounded\">
+                    </div>";
+            }
+            echo <<< _END
                     <div class="col-md-6">
                         <h1>$name<br></h1>
                         <h3>$position</h3>
@@ -161,12 +171,16 @@
                                 <br>
                             </p>
                     </div>
-                    <div class="col-md-6 hidden-sm hidden-xs">
-                        <img src="$image" class="img-responsive img-rounded">
-                    </div>
+_END;
+            if($i%2 != 0 ){
+                echo "<div class=\"col-md-6 hidden-sm hidden-xs\">
+                        <img src=\"$image\" class=\"img-responsive img-rounded\">
+                    </div>";
+            }
+            echo <<< _END
                 </div>
             </div>
-        </div>
+        </div> 
 _END;
         }
         ?>
