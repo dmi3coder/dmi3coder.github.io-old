@@ -128,99 +128,141 @@
                 </div>
             </div>
         </div>
+        <?php
+        require_once 'login.php';
+        $conn = new mysqli($hn,$un,$pw,$db);
+        $query = "SELECT * FROM web_experience ORDER BY id DESC";
+        $result = $conn->query($query);
+        if (!$result) die($conn->error);
+        $rows = $result->num_rows;
+        for($i = 0; $i< $rows; ++$i){
+            $result->data_seek($i);
+            $name = $result->fetch_assoc()['name'];
+            $result->data_seek($i);
+            $position = $result->fetch_assoc()['position'];
+            $result->data_seek($i);
+            $description = $result->fetch_assoc()['description'];
+            $result->data_seek($i);
+            $image = $result->fetch_assoc()['image'];
+            $result->data_seek($i);
+            $from_date = $result->fetch_assoc()['from_date'];
+            $result->data_seek($i);
+            $to_date = $result->fetch_assoc()['to_date'];
+            echo <<< _END
         <div class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="images/exp_acr.png" class="hidden-lg hidden-md img-responsive img-rounded">
-                        <h1>.Acr<br></h1>
-                        <h3>Mobile Android developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                            natoque penatibus et magnis dis parturient montes, nascetur
-                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu
-                            , pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-                            justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                            rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
-                            eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                            elementum semper nisi.</p></div><div class="col-md-6">
-                        <img src="images/exp_acr.png" class="hidden-sm hidden-xs img-responsive">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/exp_fourplaces.png" class="center-block img-responsive">
-                    </div>
-                    <div class="col-md-6">
-                        <h1 class="text-primary">Fourplaces</h1>
-                        <h3>Backend &amp;&nbsp;Mobile Android developer</h3>
-                        <p>The more exciting project that I've ever made for now! I'm cofounder of
-                            Fourplaces - our application for finding cafeterias and events. It's the
-                            point where I've realized myself as &nbsp;experienced developer: REST API,
-                            Retrofit, okhttp, search, RecyclerView, Parralax effect, realm and a lot
-                            of interesting things; on the other hand - entrepreneur: Startup challenge,
-                            presentations, advertisement. A lot of books was read, a lot of code was
-                            written. Also I've developed backend on Spring for this project.&nbsp;</p>
-                        <a class="btn btn-primary" href="http://fourplaces.com">Website</a>
-                            <p class="text-right">
-                                <b>29.12.2015 - NOW</b>
+                        <h1>$name<br></h1>
+                        <h3>$position</h3>
+                        <p>$description</p>
+                        <p class="text-right">
+                                <b> $from_date - $to_date</b>
                                 <br>
                             </p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/exp_rai.jpg" class="hidden-lg hidden-md img-responsive img-rounded">
-                        <h1 class="text-primary">Rai bulletin board</h1>
-                        <h3>Mobile Android developer</h3>
-                        <p>Started in September 2015, minimal viable prodict was developed less then
-                            2 weeks. Got hired by Russian company Rai, but moreover, I got huge experience
-                            in handling the workflow of bulletin board program. It was my first experience
-                            with inApp billing and PlayMarket application posting. The project's wide-open
-                            happend in October 2015</p>
-                        <p class="text-right">
-                            <b>09.2015 - 11.2015</b>&nbsp;
-                            <br>
-                        </p>
-                    </div>
                     <div class="col-md-6 hidden-sm hidden-xs">
-                        <img src="images/exp_rai.jpg" class="img-responsive img-rounded">
+                        <img src="$image" class="img-responsive img-rounded">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/exp_dmi3cafe.png" class="img-responsive img-rounded">
-                    </div>
-                    <div class="col-md-6">
-                        <h1 class="text-primary">Imbiss am kreisel (dmi3cafe)</h1>
-                        <h3>Mobile Android developer</h3>
-                        <p>Inspired with Android SDK, it was my first project for Android. Started
-                            in May 2015 I've created a lot of features that i'm still using: listview,
-                            asynktask, Picasso, slide navigation menu. I've been using Parse as a pseudo
-                            backend. Got hired by some German cafeteria called "Imbiss am kreisel".</p>
-                        <p>
-                            <a href="http://www.amazon.com/dmi3coder-dmi3cafe/dp/B011M755OA">Amazon AppStore</a>
-                        </p>
-                    </div>
-                    <p class="text-right">
-                        <b>05.2015 - 08.2015</b>&nbsp;
-                        <br>
-                    </p>
-                </div>
-            </div>
-        </div>
+_END;
+        }
+        ?>
+<!--        <div class="section">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <img src="images/exp_acr.png" class="hidden-lg hidden-md img-responsive img-rounded">-->
+<!--                        <h1>.Acr<br></h1>-->
+<!--                        <h3>Mobile Android developer</h3>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.-->
+<!--                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis-->
+<!--                            natoque penatibus et magnis dis parturient montes, nascetur-->
+<!--                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu-->
+<!--                            , pretium quis, sem. Nulla consequat massa quis enim. Donec pede-->
+<!--                            justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,-->
+<!--                            rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis-->
+<!--                            eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus-->
+<!--                            elementum semper nisi.</p></div><div class="col-md-6">-->
+<!--                        <img src="images/exp_acr.png" class="hidden-sm hidden-xs img-responsive">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="section">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <img src="images/exp_fourplaces.png" class="center-block img-responsive">-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <h1 class="text-primary">Fourplaces</h1>-->
+<!--                        <h3>Backend &amp;&nbsp;Mobile Android developer</h3>-->
+<!--                        <p>The more exciting project that I've ever made for now! I'm cofounder of-->
+<!--                            Fourplaces - our application for finding cafeterias and events. It's the-->
+<!--                            point where I've realized myself as &nbsp;experienced developer: REST API,-->
+<!--                            Retrofit, okhttp, search, RecyclerView, Parralax effect, realm and a lot-->
+<!--                            of interesting things; on the other hand - entrepreneur: Startup challenge,-->
+<!--                            presentations, advertisement. A lot of books was read, a lot of code was-->
+<!--                            written. Also I've developed backend on Spring for this project.&nbsp;</p>-->
+<!--                        <a class="btn btn-primary" href="http://fourplaces.com">Website</a>-->
+<!--                            <p class="text-right">-->
+<!--                                <b>29.12.2015 - NOW</b>-->
+<!--                                <br>-->
+<!--                            </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="section">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <img src="images/exp_rai.jpg" class="hidden-lg hidden-md img-responsive img-rounded">-->
+<!--                        <h1 class="text-primary">Rai bulletin board</h1>-->
+<!--                        <h3>Mobile Android developer</h3>-->
+<!--                        <p>Started in September 2015, minimal viable prodict was developed less then-->
+<!--                            2 weeks. Got hired by Russian company Rai, but moreover, I got huge experience-->
+<!--                            in handling the workflow of bulletin board program. It was my first experience-->
+<!--                            with inApp billing and PlayMarket application posting. The project's wide-open-->
+<!--                            happend in October 2015</p>-->
+<!--                        <p class="text-right">-->
+<!--                            <b>09.2015 - 11.2015</b>&nbsp;-->
+<!--                            <br>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6 hidden-sm hidden-xs">-->
+<!--                        <img src="images/exp_rai.jpg" class="img-responsive img-rounded">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="section">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <img src="images/exp_dmi3cafe.png" class="img-responsive img-rounded">-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <h1 class="text-primary">Imbiss am kreisel (dmi3cafe)</h1>-->
+<!--                        <h3>Mobile Android developer</h3>-->
+<!--                        <p>Inspired with Android SDK, it was my first project for Android. Started-->
+<!--                            in May 2015 I've created a lot of features that i'm still using: listview,-->
+<!--                            asynktask, Picasso, slide navigation menu. I've been using Parse as a pseudo-->
+<!--                            backend. Got hired by some German cafeteria called "Imbiss am kreisel".</p>-->
+<!--                        <p>-->
+<!--                            <a href="http://www.amazon.com/dmi3coder-dmi3cafe/dp/B011M755OA">Amazon AppStore</a>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                    <p class="text-right">-->
+<!--                        <b>05.2015 - 08.2015</b>&nbsp;-->
+<!--                        <br>-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <footer class="section section-primary">
             <div class="container">
                 <div class="row">
