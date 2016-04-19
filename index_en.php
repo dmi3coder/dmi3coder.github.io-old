@@ -1,4 +1,5 @@
-<html><head>
+<html>
+<head>
         <meta charset="utf-8">
         <title>Dmitriy Chaban dmi3coder personal website &amp; portfolio</title>
         <meta name="description" content="dmi3coder, android, java, akka, play, framework, startup">
@@ -17,7 +18,11 @@
                   ga('create', 'UA-74455808-1', 'auto');
                   ga('send', 'pageview');
             </script>
-    </head><body>
+    </head>
+<body>
+<?php
+require_once 'login.php';
+?>
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -129,7 +134,6 @@
             </div>
         </div>
         <?php
-        require_once 'login.php';
         $conn = new mysqli($hn,$un,$pw,$db);
         $query = "SELECT * FROM web_experience ORDER BY id DESC";
         $result = $conn->query($query);
@@ -137,17 +141,13 @@
         $rows = $result->num_rows;
         for($i = 0; $i< $rows; ++$i){
             $result->data_seek($i);
-            $name = $result->fetch_assoc()['name'];
-            $result->data_seek($i);
-            $position = $result->fetch_assoc()['position'];
-            $result->data_seek($i);
-            $description = $result->fetch_assoc()['description'];
-            $result->data_seek($i);
-            $image = $result->fetch_assoc()['image'];
-            $result->data_seek($i);
-            $from_date = $result->fetch_assoc()['from_date'];
-            $result->data_seek($i);
-            $to_date = $result->fetch_assoc()['to_date'];
+            $array = mysqli_fetch_array($result,  MYSQLI_ASSOC);
+            $name = $array['name'];
+            $position = $array['position'];
+            $description = $array['description'];
+            $image = $array['image'];
+            $from_date = $array['from_date'];
+            $to_date = $array['to_date'];
             if($to_date == "0000-00-00"){
                 $to_date = "NOW";
             }
