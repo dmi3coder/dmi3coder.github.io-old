@@ -80,36 +80,28 @@ require_once 'login.php';
         <div class="section">
             <div class="container">
                 <div class="row">
+                    <?php
+                    $conn = new mysqli($hn,$un,$pw,$db);
+                    $query = "SELECT * FROM web_skills ORDER BY id ASC ";
+                    $result = $conn->query($query);
+                    if(!$result) die("oh no!");
+                    $rows = $result->num_rows;
+                    for($i = 0;$i<$rows;$i++){
+                        $result->data_seek($i);
+                        $array = mysqli_fetch_array($result,MYSQLI_ASSOC);
+                        $name = $array['name'];
+                        $description = $array['description'];
+                        $image = $array['image'];
+                        echo <<< _END
                     <div class="col-md-3">
-                        <img src="images/androidDev.png" class="center-block img-responsive">
-                        <h2 class="text-success">Android SDK</h2>
-                        <p>Tried android in summer 2014 and was astonished with this power. In 2015
-                            started aggresive deep learning: Intents, Content providers, Services and
-                            much much more&nbsp;</p>
+                        <img src="$image" class="center-block img-responsive">
+                        <h2 class="text-success">$name</h2>
+                        <p>$description</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="images/javase.jpg" class="img-responsive">
-                        <h2 class="text-warning">Java SE</h2>
-                        <p>Started learning in fall 2015 righ after small experience with Android
-                            SDK because strong basics are matter. &nbsp;Have good backgound in Java
-                            SE + Java 8 experience such as lambdas and streams</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/rest.png" class="img-responsive img-rounded">
-                        <h2 class="text-danger">API</h2>
-                        <p>Had some small experience with Parse SDK. In winter 2015 started deep
-                            learning of REST API with Retrofit library. In spring 2016 created own
-                            Spring backend with REST API: authorization and MongoDB.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/android.jpg" class="img-responsive">
-                        <h2>Some more</h2>
-                        <p>Have few
-                            <a href="https://github.com/dmi3coder/jZeldaProject">experience with jMonkeyEngine</a>, Spring Framework and huge amount of libraries. Also have good experience
-                            with some databases such as: SQLite, Realm, MongoDB
-                            <br>
-                        </p>
-                    </div>
+_END;
+
+                    }
+                    ?>
                 </div>
             </div>
         </div>
