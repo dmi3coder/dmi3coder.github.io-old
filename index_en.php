@@ -1,4 +1,4 @@
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
         <meta charset="utf-8">
         <title>Dmitriy Chaban dmi3coder personal website &amp; portfolio</title>
@@ -140,6 +140,16 @@ _END;
             $image = $array['image'];
             $from_date = $array['from_date'];
             $to_date = $array['to_date'];
+            $link = $array['link'];
+            $link_place = "";
+            if($i != 0){
+                $link_place = "<p>
+                            <a href=\"$link\">More information</a>
+                        </p>";
+            }
+            else{
+                $link_place = "<a class=\"btn btn-primary\" href=\"$link\">More</a>";
+            }
             if($to_date == "0000-00-00"){
                 $to_date = "NOW";
             }
@@ -158,6 +168,7 @@ _END;
                         <h1>$name<br></h1>
                         <h3>$position</h3>
                         <p>$description</p>
+                        $link_place
                         <p class="text-right">
                                 <b> $from_date - $to_date</b>
                                 <br>
