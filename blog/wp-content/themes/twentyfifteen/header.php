@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="/style" rel="stylesheet" type="text/css">
+	<link href="/style-blog" rel="stylesheet" type="text/css">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,10 +33,10 @@
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-ex-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active">
+				<li>
 					<a href="/">Home</a>
 				</li>
-				<li>
+				<li class="active">
 					<a href="/blog">Blog</a>
 				</li>
 				<li>
@@ -46,7 +46,7 @@
 		</div>
 	</div>
 </div>
-<div class="cover">
+<div class="cover hidden-sm hidden-xs">
 	<div class="background-image-fixed cover-image" style="background-image : url('https://unsplash.imgix.net/photo-1422513391413-ddd4f2ce3340?w=1024&amp;q=50&amp;fm=jpg&amp;s=282e5978de17d6cd2280888d16f06f04')"></div>
 	<div class="container">
 		<div class="row">
@@ -56,8 +56,6 @@
 			<div class="blackbg col-md-9 filterprogiddximagetransformmicrosoftgradientendcolorstrc0cfe2-startcolorstr='#ffffff',-gradienttype='0'); text-left">
 				<h1 class="text-inverse">Dmitriy Chaban</h1>
 				<p class="text-inverse">Junior Java/Android Developer</p>
-				<br>
-				<br>
 				<a class="btn btn-lg btn-primary" href="/contacts.php">Contact me<br></a>
 			</div>
 		</div>
