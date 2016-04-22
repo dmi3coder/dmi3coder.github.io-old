@@ -1,30 +1,21 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
-
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+<footer class="section section-primary">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1>ad verum via fert</h1>
+				<p>It means "path leads to the truth", which is mine creed for anything I
+					do. If you're making some work you'll be one step closer to your dream.
+					<br>
 				</p>
-				<!-- /copyright -->
-
-			</footer>
-			<!-- /footer -->
-
+			</div>
+			<div class="col-sm-6">
+				<div class="col-md-12 text-right">
+					<a href="https://www.linkedin.com/in/dmi3coder"><i class="edin fa fa-3x fa-fw fa-linkedin-square fa-spin text-inverse"></i></a>
+					<a href="https://twitter.com/dmi3coder"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+					<a href="https://facebook.com/dmi3coder"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+					<a href="https://github.com/dmi3coder"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+				</div>
+			</div>
 		</div>
-		<!-- /wrapper -->
-
-		<?php wp_footer(); ?>
-
-		<!-- analytics -->
-		<script>
-		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
-		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
-		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
-		ga('send', 'pageview');
-		</script>
-
-	</body>
-</html>
+	</div>
+</footer>
