@@ -1,7 +1,7 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	<div class="section">
 		<div class="container">
-			<div class="row"><div class="col-md-6 hidden-sm hidden-xs">
+			<div class="row"><div class="col-md-6">
 					<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 							<?php the_post_thumbnail(array(420,420),"class=img-responsive img-rounded"); ?>
