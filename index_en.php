@@ -22,6 +22,7 @@
 <body>
 <?php
 require_once 'login.php';
+$conn = new mysqli($hn,$un,$pw,$db);
 ?>
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -81,7 +82,6 @@ require_once 'login.php';
             <div class="container">
                 <div class="row">
                     <?php
-                    $conn = new mysqli($hn,$un,$pw,$db);
                     $query = "SELECT * FROM web_skills ORDER BY id ASC ";
                     $result = $conn->query($query);
                     if(!$result) die("oh no!");
@@ -126,7 +126,6 @@ _END;
             </div>
         </div>
         <?php
-        $conn = new mysqli($hn,$un,$pw,$db);
         $query = "SELECT * FROM web_experience ORDER BY id DESC";
         $result = $conn->query($query);
         if (!$result) die($conn->error);
