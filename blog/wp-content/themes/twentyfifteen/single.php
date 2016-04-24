@@ -60,7 +60,7 @@
 
 	<main role="main">
 	<!-- section -->
-	<section>
+	<section style="padding-right: 10%;padding-left: 10%">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
@@ -72,12 +72,6 @@
 				<p><?php the_title() ?></p>
 			</h1>
 			<!-- /post title -->
-
-			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
-			<!-- /post details -->
 
 			<?php the_content(); // Dynamic Content ?>
 			<p class="text-right"> <b class="date text-right"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></b></p>
