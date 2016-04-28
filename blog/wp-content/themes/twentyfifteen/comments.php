@@ -18,7 +18,6 @@
 	<p><?php _e( 'Comments are closed here.', 'html5blank' ); ?></p>
 
 <?php endif; ?>
-
-<?php comment_form(); ?>
+<?php comment_form(array( 'class_submit' => 'btn btn-primary' )); ?>
 
 </div>
