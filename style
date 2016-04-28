@@ -6568,7 +6568,6 @@ button.close {
  * Licensed under MIT
 */
 /* Google web fonts support */
-/* TODO: webkit need this why ?*/
 html,
 body {
   height: 100%;
@@ -6577,7 +6576,6 @@ body {
 .text-inverse {
   color: #ffffff;
 }
-/* TODO: verify if we can touch only section */
 .jumbotron {
   margin-bottom: 0px !important;
 }
