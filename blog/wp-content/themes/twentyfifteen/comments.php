@@ -21,10 +21,6 @@
 <?php comment_form(array( 'class_submit' => 'btn btn-primary' )); ?>
 
 <script>
-	avatars = document.images;
-	for(var i = 0; i < avatars.length ;i++){
-		if(avatars.item(i).className.indexOf("avatar") > -1)
-			avatars.item(i).className = "img-circle img-responsive";
-	}
+	$('.avatar').addClass('img-circle')
 </script>
 </div>
