@@ -21,6 +21,8 @@
 <?php comment_form(array( 'class_submit' => 'btn btn-primary' )); ?>
 
 <script>
-	$('.avatar').addClass('img-circle')
+	$('.avatar').addClass('img-circle');
+	$('textarea').width('100%');
+	$('.form-submit').css('text-align','right');
 </script>
 </div>
